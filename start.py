@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from datetime import datetime
 
 
-CONNECTION_STRING = "mongodb://root:root@localhost:27017"
+CONNECTION_STRING = "mongodb://root:root@mongodb1:27017"
 
 database_name = "user-account"
 collection_name = "users"
